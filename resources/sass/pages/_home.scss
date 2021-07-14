@@ -1,0 +1,87 @@
+.color-secondary-green {
+    color: $secondary-green !important;
+}
+
+.color-primary-green {
+    color: $primary-green !important;
+}
+
+.calendar-title {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-header.dashboard {
+    font-size: 25px;
+}
+
+.selector-flex.d-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selector-item {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    min-width: 100px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    background-color: $additional-blue;
+    border-radius: 15px;
+    .btn {
+        color: $primary-green;
+    }
+}
+
+.rocket-font {
+    font-size: 18px;
+}
+
+.bg-color-secondary-green {
+    background-color: $secondary-green;
+}
+
+.bg-color-primary-blue {
+    background-color: $primary-blue;
+}
+
+.bg-color-additional-blue {
+    background-color: $additional-blue;
+}
+
+.bg-color-primary-green {
+    background-color: $primary-green;
+}
+
+.color-primary-blue {
+    color: $primary-blue !important;
+}
+
+.navbar-custom-link {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.green-hover {
+    &:hover {
+        background-color: $primary-green;
+    }
+}
+
+.todayborder {
+    border-color: springgreen;
+    border-width: 3px;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+    border: 1px solid $primary-blue;
+    padding: 5px 10px;
+}

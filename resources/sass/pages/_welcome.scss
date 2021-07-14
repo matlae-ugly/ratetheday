@@ -1,0 +1,67 @@
+.header {
+    margin-top: 15vh;
+    margin-left: 10vw;
+    color: $primary-green;
+    font-size: 5rem;
+    font-family: 'Yomogi', cursive;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.welcome-body {
+    background-color: $additional-blue;
+}
+
+.links {
+    a {
+        color: $primary-blue;
+        padding: 0 25px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+.quote {
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.quote {
+    margin-top: 4vh;
+    width: 30%;
+    margin-left: 50vw;
+    font-family: 'Yomogi', cursive;
+    color: $primary-blue;
+    background-color: $secondary-green;
+
+    figcaption {
+        text-align: right;
+    }
+    figcaption,blockquote {
+        margin: 1em;
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: $primary-blue;
+    font-size: 15px;
+    padding: 0 25px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: -1;
+}

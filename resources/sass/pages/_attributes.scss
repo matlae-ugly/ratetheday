@@ -1,0 +1,58 @@
+.attributes-header {
+    text-align: center;
+}
+.attributes-add {
+    color: $primary-blue;
+    text-align: right;
+
+    i {
+        padding-top: 7px;
+        cursor: pointer;
+        font-size: 30px;
+    }
+}
+.attribute-li {
+    display: flex;
+    justify-content: space-between;
+
+    i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.font-secondary {
+    font-family: 'Oswald', sans-serif;
+}
+
+.attributes-input-wrapper {
+    display: flex;
+    justify-content: center;
+
+    span {
+        font-size: 20px;
+        padding: 3px 10px;
+        border:1px solid $primary-blue;
+        cursor: pointer;
+    }
+}
+
+input[type='text'] {
+    font-size: 20px;
+}
+
+.attributes-input {
+    border-bottom: 1px solid $primary-blue;
+    border-top: initial;
+    border-right: initial;
+    border-left: initial;
+    background: transparent;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.custom-dropdown-attributes {
+
+}

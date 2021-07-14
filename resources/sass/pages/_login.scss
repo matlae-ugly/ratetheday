@@ -1,0 +1,57 @@
+.custom-bg {
+    background-color: $primary-blue;
+}
+
+.layout-body {
+    background-color: $secondary-blue;
+}
+
+.green.navbar-brand {
+    color: $secondary-green;
+    font-family: 'Yomogi', cursive;
+    font-size: 22px;
+
+    &:hover {
+        color: $primary-green;
+    }
+}
+
+.nav-item > .nav-link.green {
+    color: $secondary-green;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $primary-green;
+    }
+}
+
+.card-header {
+    text-align: center;
+    color: $secondary-green;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+    background-color: $primary-blue;
+}
+
+.custom-label {
+    text-align: center;
+}
+
+.custom-btn.btn-primary {
+    background-color: $secondary-green;
+    border-color: $primary-green;
+    border-radius: 20px;
+}
+
+.color-blue-additional {
+    color: $additional-blue;
+
+    &:hover {
+        color: $primary-blue;
+    }
+}
